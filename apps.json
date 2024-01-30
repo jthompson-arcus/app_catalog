@@ -1,0 +1,74 @@
+[
+  {
+    "Title": "{dplyr}",
+    "Description": "dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges.",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/621a9c8c5d7b47c4b6d72e8f01f28d14310e8370/193fc/css/images/hex/dplyr.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/dplyr/",
+      "Documentation": "https://dplyr.tidyverse.org/"
+      }
+  },
+  {
+    "Title": "{ggplot2}",
+    "Description": "ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/2c6239d311be6d037c251c71c3902792f8c4ddd2/12f67/css/images/hex/ggplot2.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/ggplot2/",
+      "Documentation": "https://ggplot2.tidyverse.org/"
+    }
+  },
+  {
+    "Title": "{forcats}",
+    "Description": "The goal of the forcats package is to provide a suite of tools that solve common problems with factors, including changing the order of levels or the values.",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/412a6f14518ab633a94221dda7e16cf22e43a763/91620/css/images/hex/forcats.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/forcats/",
+      "Documentation": "https://forcats.tidyverse.org/"
+    }
+  },
+  {
+    "Title": "{tibble}",
+    "Description": "A tibble, or tbl_df, is a modern reimagining of the data.frame, keeping what time has proven to be effective, and throwing out what is not.",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/c477d7eb7fdf2c3d75637cfe19ff4a4d0a107bcf/017d0/css/images/hex/tibble.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/tibble/",
+      "Documentation": "https://tibble.tidyverse.org/"
+    }
+  },
+  {
+    "Title": "{readr}",
+    "Description": "The goal of readr is to provide a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV).",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/c1c91484f898fe9d7d90a570900f1d5cd703fe2e/d7df4/css/images/hex/readr.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/readr/",
+      "Documentation": "https://readr.tidyverse.org/"
+    }
+  },
+  {
+    "Title": "{stringr}",
+    "Description": "The stringr package provides a cohesive set of functions designed to make working with strings as easy as possible.",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/45fd04ad9cdb2159fea08d07dbc11e742d68e4e3/df327/css/images/hex/stringr.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/stringr/",
+      "Documentation": "https://stringr.tidyverse.org/"
+    }
+  },
+  {
+    "Title": "{tidyr}",
+    "Description": "The goal of tidyr is to help you create tidy data. Tidy data is data where: every column is variable, every row is an observation, and every cell is a single value.",
+    "Hex" : "https://d33wubrfki0l68.cloudfront.net/476fa4025501dcec05be08248b32d390dd2337d5/574c6/css/images/hex/tidyr.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/tidyr/",
+      "Documentation": "https://tidyr.tidyverse.org/"
+    }
+  },
+  {
+    "Title": "{purrr}",
+    "Description": "purrr enhances R's functional programming (FP) toolkit by providing a complete and consistent set of tools for working with functions and vectors.",
+    "Hex": "https://d33wubrfki0l68.cloudfront.net/2d0701b616efa7435cd5a94e703baa595a4f9ed0/d41b9/css/images/hex/purrr.png",
+    "Links": {
+      "Source": "https://github.com/tidyverse/purrr/",
+      "Documentation": "https://purrr.tidyverse.org/"
+    }
+  }
+]

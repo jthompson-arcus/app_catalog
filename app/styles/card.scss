@@ -1,0 +1,16 @@
+.card-box {
+  border: black 1px solid;
+  width: 300px;
+  border-radius: 10px;
+  height: 180px;
+  padding: 5px;
+  margin: 5px;
+  &:hover {
+    box-shadow: 1px 1px 5px, -1px -1px 5px;
+  }
+
+  .card-title {
+    font-size: large;
+    font-weight: bold;
+  }
+}

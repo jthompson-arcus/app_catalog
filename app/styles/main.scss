@@ -1,0 +1,120 @@
+.card-grid {
+  display: flex;
+  --s: 200px;
+  --m: 0px;
+  --f: calc(var(--s)*1.732 + 4*var(--m) - 1px);
+  
+  > div {
+    font-size: 0;
+    line-height: initial;
+    &::before {
+      content: "";
+      width: calc(var(--s)/2 + var(--m));
+      float: left;
+      height: 120%;
+      shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 3px), #000 0 var(--f));
+    }
+  }
+}
+
+.card-box {
+  width: var(--s);
+  margin: var(--m);
+  padding: .05%;
+  height: calc(var(--s)*1.1547);
+  display: inline-block;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  background: black;
+  text-align: center;
+  font-size: initial;
+  margin-bottom: calc(var(--m) - var(--s)*0.2886);
+  cursor: pointer;
+  
+  .card-inner-box {
+    background: white;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+    position: relative;
+    background-size: cover;
+  }
+
+  .card-title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    background-color: #ffffff66;
+    border-radius: 5px;
+    padding: 2px;
+  }
+}
+
+.ui.segment.card-info {
+  position: fixed;
+  width: -webkit-fill-available;
+  
+  h1,.h1 {
+    margin-bottom: 0;
+  }
+  
+  .info-links a {
+    border-left: solid;
+    padding-left: 3px;
+    
+    &:first-child {
+      border-left: none;
+      padding-left: unset;
+    }
+  }
+}
+
+.ui.form .ss-checkbox-input {
+  
+  label.control-label {
+    font-size: 1.25rem;
+  }
+  
+  .ui.checkbox.invisible {
+    
+    label:before {
+      display: none;
+    }
+    label:after {
+      display: none;
+    }
+  }
+  
+  div {
+    .ui.button {
+      margin: 0;
+      border: solid;
+      border-width: thin;
+      border-radius: 0;
+      position: relative;
+    }
+    
+    &.checked {
+      .ui.button:after {
+        font-family: Icons;
+        margin-left: 3px;
+        content: "\f0d8";
+        position: absolute;
+      }
+      
+      .ui.button.-desc:after {
+        content: "\f0d7";
+      }
+    }
+      
+    &:first-of-type .ui.button {
+      border-radius: 30px 0 0 30px;
+    }
+      
+    &:last-of-type .ui.button {
+      border-radius: 0 30px 30px 0;
+    }
+  }
+}
